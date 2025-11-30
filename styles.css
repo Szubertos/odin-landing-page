@@ -1,0 +1,45 @@
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+.header, .tile1 {
+    background-color: #1F2937;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    padding-top: 0px;
+}
+
+.headerlinks {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 20px;
+}
+
+.headerlogo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.tile1 {
+    padding: 50px;
+    display: flex;
+}
+
+#tile1image {
+    height: 150px;
+    width: auto;
+}
