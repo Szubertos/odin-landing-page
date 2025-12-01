@@ -11,6 +11,9 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    font-family: 'Roboto';
+    padding: 0px;
+    margin: 0px;
 }
 
 .header {
@@ -25,21 +28,157 @@ body {
 .headerlinks {
     display: flex;
     font-size: 18px;
-    color: #E5E7EB;
-    gap: 20px;
 }
 
 .headerlogo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .tile1 {
     padding: 50px;
     display: flex;
+    padding-top: 0px;
 }
 
 #tile1image {
-    height: 150px;
+    height: 170px;
     width: auto;
 }
+
+#tile1button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.bigtext {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.smalltext {
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.headerlinks, .smalltext{
+    color: #E5E7EB;
+    gap: 20px;
+}
+
+.tile2 {
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+}
+.tile2container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.tile2bigtext {
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+    color: #1F2937;
+    font: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 80px;
+}
+
+.rectangle {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.recntaglesubtext {
+    text-align: center;
+    font-size: 13px;
+    color: rgb(77, 77, 77);
+}
+
+.tile3 {
+    background-color: #E5E7EB;
+    padding: 50px;
+}
+
+.inspiringquote {
+    font-size: 30px;
+    font-weight: 100;
+    color:#1F2937;
+    font-style: italic;
+}
+
+.thor {
+    font-size: 24px;
+    font-weight: 900;
+    color:#1F2937;
+    text-align: right;
+}
+
+.tile4 {
+    display: flex;
+    background-color: white;
+}
+
+.bluerectangle {
+    border-radius: 5px;
+    margin: 50px;
+    display: flex;
+    background-color: #3882F6;
+    flex-direction: row;
+    flex: 1;
+    padding: 30px;
+    color: white;
+    justify-content: space-between;
+}
+
+#tile4button {
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
+    text-align: center;
+    line-height: 1;
+    margin: 5px;
+}
+
+.tile4text {
+}
+
+.calltoaction {
+    font-weight: bold;
+}
+
+.tile1, .tile2, .tile3, .tile4, .footer {
+    flex-grow: 1;
+}
+
+.footer {
+    padding: 20px;
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 12px;
+}
+
+
